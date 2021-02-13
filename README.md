@@ -5,8 +5,7 @@
 For setup instructions please see the [fabric wiki page](https://fabricmc.net/wiki/tutorial:setup) that relates to the IDE that you are using.
 
 NOTE: There is no Fabric-API for beta 1.7.3!  
-There is [StationLoader](https://github.com/modificationstation/StationLoader).  
-There is also [Cursed-Legacy-API](https://github.com/minecraft-cursed-legacy/Cursed-Legacy-API), but that requires you to use [Plasma's mappings and workspace](https://github.com/minecraft-cursed-legacy/Example-Mod) instead of this.
+Use this one [StationLoader](https://github.com/modificationstation/StationLoader).  
 
 Extra steps for better Mixin making and Fabric configuring in IntelliJ IDEA:
 
@@ -17,7 +16,7 @@ Extra steps for better Mixin making and Fabric configuring in IntelliJ IDEA:
 
 ## Using a Mod
 
-You will want to use the [Cursed Fabric MultiMC Instance](https://github.com/calmilamsy/Cursed-Fabric-MultiMC) (INSTALL KOTLIN-STDLIB)
+You will want to use the [Cursed Fabric MultiMC Instance](https://github.com/calmilamsy/Cursed-Fabric-MultiMC) (INSTALL KOTLIN-STDLIB inside Instance)
 
 ## Common Issues
 
