@@ -1,4 +1,4 @@
-# Fabric Example Mod with BIN Mappings for beta 1.7.3 server + client
+# Fabric Example Mod with BIN Mappings for beta 1.7.3 server + client (StAPI + Kotlin Edition)
 
 ## Setup
 
@@ -17,7 +17,7 @@ Extra steps for better Mixin making and Fabric configuring in IntelliJ IDEA:
 
 ## Using a Mod
 
-You will want to use the [Cursed Fabric MultiMC Instance](https://github.com/calmilamsy/Cursed-Fabric-MultiMC)
+You will want to use the [Cursed Fabric MultiMC Instance](https://github.com/calmilamsy/Cursed-Fabric-MultiMC) (INSTALL KOTLIN-STDLIB)
 
 ## Common Issues
 
