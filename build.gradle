@@ -13,7 +13,7 @@ buildscript {
 		}
 	}
 	dependencies {
-		classpath 'com.github.Chocohead:Fabric-Loom:bbaa5d7'
+		classpath 'com.github.Chocohead:Fabric-Loom:e3d1762'
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
     }
 }
@@ -85,11 +85,16 @@ dependencies {
 
 	// adds some useful annotations for miscellaneous uses. does not add any dependencies, though people without the lib will be missing some useful context hints.
 	compile 'org.jetbrains:annotations:16.0.2'
+	
+	implementation "com.github.jhalterman:typetools:87240d6"
+	implementation "com.github.benjiman:expressions:7ed6748"
 
 	modImplementation "com.github.minecraft-cursed-legacy:cursed-fabric-loader:${project.loader_version}"
+
+	modImplementation "com.github.ModificationStation:StationAPI:${project.stapi_version}"
+
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8:$kotlin_version"
 
-	modImplementation "com.github.ModificationStation:StationAPI:660082a:dev"
 
 }
 
