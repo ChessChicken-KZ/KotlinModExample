@@ -1,14 +1,11 @@
 package kz.chesschicken.example.events.ingame
 
-import net.minecraft.client.Minecraft
-
-import kz.chesschicken.example.events.init.KeyBindingListener
-
 import kz.chesschicken.example.events.init.AchievementListener
-
+import kz.chesschicken.example.events.init.KeyBindingListener
 import net.fabricmc.api.EnvType
 import net.fabricmc.api.Environment
 import net.fabricmc.loader.api.FabricLoader
+import net.minecraft.client.Minecraft
 import org.lwjgl.input.Keyboard
 
 

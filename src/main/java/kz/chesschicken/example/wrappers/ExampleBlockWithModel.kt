@@ -5,10 +5,10 @@ import net.minecraft.block.material.Material
 import net.minecraft.level.Level
 import net.modificationstation.stationapi.api.client.model.BlockModelProvider
 import net.modificationstation.stationapi.api.client.model.CustomModel
-import net.modificationstation.stationapi.api.common.registry.Identifier
-import net.modificationstation.stationapi.template.common.block.BlockBase
+import net.modificationstation.stationapi.api.registry.Identifier
+import net.modificationstation.stationapi.api.template.block.TemplateBlockBase
 
-class ExampleBlockWithModel(id: Identifier?, m: Material) : BlockBase(id, m) , BlockModelProvider {
+class ExampleBlockWithModel(id: Identifier?, m: Material) : TemplateBlockBase(id, m) , BlockModelProvider {
 
     override fun isFullOpaque(): Boolean = false
 

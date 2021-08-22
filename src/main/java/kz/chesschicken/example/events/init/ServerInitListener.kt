@@ -1,11 +1,10 @@
 package kz.chesschicken.example.events.init
 
-import net.modificationstation.stationapi.api.common.event.EventListener
-import net.modificationstation.stationapi.api.common.event.mod.Init
-import net.modificationstation.stationapi.api.common.util.Null
-
-import net.modificationstation.stationapi.api.common.mod.entrypoint.Entrypoint
-import net.modificationstation.stationapi.api.common.registry.ModID
+import net.mine_diver.unsafeevents.listener.EventListener
+import net.modificationstation.stationapi.api.event.mod.InitEvent
+import net.modificationstation.stationapi.api.mod.entrypoint.Entrypoint
+import net.modificationstation.stationapi.api.registry.ModID
+import net.modificationstation.stationapi.api.util.Null
 import org.apache.logging.log4j.Logger
 
 
@@ -16,7 +15,7 @@ class ServerInitListener {
     @Entrypoint.Logger val LOGGER: Logger = Null.get()
 
     @EventListener
-    private fun serverInit(event: Init) {
+    private fun serverInit(event: InitEvent) {
         LOGGER.error(MOD_ID.toString())
     }
 
